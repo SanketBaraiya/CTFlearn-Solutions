@@ -9,7 +9,7 @@ We will fire `binwalk cut3_c4t.png` in the terminal.
 ![2](https://user-images.githubusercontent.com/56958135/103539612-6595c900-4ebe-11eb-80f4-1f24c954a367.png)
 <br><br>
 We can see that there is a RAR archive data hidden inside the image.<br>
-Now we will fire `binwalk --extract --d='.*' cut3_c4t.png` in the terminal to extract all the data.
+Now we will fire `binwalk --extract --dd='.*' cut3_c4t.png` in the terminal to extract all the data.
 <br><br>
 ![3](https://user-images.githubusercontent.com/56958135/103539614-662e5f80-4ebe-11eb-951d-bb58d63932f8.png)
 <br><br>
